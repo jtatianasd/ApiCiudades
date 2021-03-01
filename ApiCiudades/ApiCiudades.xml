@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCiudades</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCiudades.Controllers.CiudadesController.GetCategorias">
+            <summary>
+            Obtener todas las ciudades
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.CiudadesController.GetCiudad(System.Int32)">
+             <summary>
+            Obtener una ciudad individual
+             </summary>
+             <param name="ciudadId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.CiudadesController.CrearCiudad(ApiCiudades.Models.DTO.CiudadDTO)">
+            <summary>
+            Crear una nueva ciudad
+            </summary>
+            <param name="ciudadDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.CiudadesController.ActualizarCiudad(System.Int32,ApiCiudades.Models.DTO.CiudadDTO)">
+            <summary>
+            Actualizar una ciudad existente
+            </summary>
+            <param name="ciudadId"></param>
+            <param name="ciudadDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.CiudadesController.BorrarCiudad(System.Int32)">
+            <summary>
+            Borrar una ciudad existente
+            </summary>
+            <param name="ciudadId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.GetDepartamentos">
+            <summary>
+            Obtener todos los departamentos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.GetDepartamento(System.Int32)">
+             <summary>
+            Obtener un departamento especifico
+             </summary>
+             <param name="DepartamentoId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.GetDepartamentosEnCategoria(System.Int32)">
+             <summary>
+            Obtener un departamento especifico
+             </summary>
+             <param name="ciudadId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.Buscar(System.String)">
+            <summary>
+            Obtener un departamento especifico por nombre 
+            </summary>
+            <param name="nombre"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.CrearDepartamento(ApiCiudades.Models.DTO.DepartamentoCreateDTO)">
+            <summary>
+            Registrar un nuevo departamento
+            </summary>
+            <param name="DepartamentoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.ActualizarDepartamento(System.Int32,ApiCiudades.Models.DTO.DepartamentoDTO)">
+            <summary>
+            Actualizar un departamento existente
+            </summary>
+            <param name="DepartamentoId"></param>
+            <param name="DepartamentoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.DepartamentosController.BorrarDepartamento(System.Int32)">
+            <summary>
+            Borrar un departamento existente
+            </summary>
+            <param name="DepartamentoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Obtener todos los usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.UsuariosController.GetUsuario(System.Int32)">
+             <summary>
+            Obtener un usuario especifico
+             </summary>
+             <param name="UsuarioId"> </param>
+             <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.UsuariosController.Registro(ApiCiudades.Models.DTO.UsuarioAuthDTO)">
+            <summary>
+            Registrar un nuevo usuario
+            </summary>
+            <param name="usuarioAuthDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiCiudades.Controllers.UsuariosController.Login(ApiCiudades.Models.DTO.UsuarioAuthLoginDTO)">
+            <summary>
+            Login de un usuario
+            </summary>
+            <param name="usuarioAuthLoginDTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
